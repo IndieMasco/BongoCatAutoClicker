@@ -17,7 +17,9 @@ A Python script designed to simulate ultra-fast drumming for Bongo Cat desktop a
 
 ### 📽️ Demo
 
-![Bongo Cat Drumming](demo.gif)
+<p align="center">
+  <img src="demo.gif" alt="Bongo Cat Drumming">
+</p>
 
 ## 🛠️ Setup
 
