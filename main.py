@@ -10,7 +10,7 @@ START_COMBO = ['ctrl', 'f8']
 STOP_KEY = 'esc'
 
 # Speed: 0.01 is about 50 hits per second. 
-SPEED = 0.0001 
+SPEED = 0.01 
 
 # The drumming loop
 def bongo_frenzy():
