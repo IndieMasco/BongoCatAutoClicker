@@ -51,8 +51,8 @@ You can tweak the performance by opening `main.py` and changing these values:
 
 ## ⚠️ Troubleshooting
 
-- **Cat isn't moving?** Ensure the Bongo Cat window is the "Active" window (click on it) before starting the combo.
-- **Keys not registering?** Make sure you ran your terminal/VS Code as **Administrator**. Windows blocks non-admin scripts from sending inputs to other apps for security.
+- **Cat isn't moving?** Ensure Bongo Cat or Note pad window is the "Active" window (click on it) before starting the script.
+- **Keys not registering?** Make sure you ran your VS Code as **Administrator**. Windows blocks non-admin scripts from sending inputs to other apps for security.
 
 ---
 
