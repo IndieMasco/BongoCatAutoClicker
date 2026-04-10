@@ -28,7 +28,8 @@ A Python script designed to simulate ultra-fast drumming for Bongo Cat desktop a
     ```bash
     pip install -r requirements.txt
     ```
-3.  **Permissions:** Because this script interacts with other windows, you **must** run your code editor (VS Code) or terminal as **Administrator**.
+3.  **Permissions:** Because this script interacts with other windows, you **must** run your code editor (VS Code) as **Administrator**.
+4.  **Run the Script:** Open `main.py` in VS Code and press the **Play Button** in the top right or hit `CTRL` + `F5`.
 
 ## 🎮 Controls
 
