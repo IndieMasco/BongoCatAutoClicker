@@ -15,6 +15,10 @@ A Python script designed to simulate ultra-fast drumming for Bongo Cat desktop a
 - **Safe Toggle:** Start combo to prevent accidental activation.
 - **Stop Button:** Instant stop with a single keypress.
 
+### 📽️ Demo
+
+![Bongo Cat Drumming](demo.gif)
+
 ## 🛠️ Setup
 
 1.  **Install Python:** Download the official [Python](https://www.python.org/) installer. **Make sure to check "Add Python to PATH" during installation.**
@@ -32,6 +36,9 @@ A Python script designed to simulate ultra-fast drumming for Bongo Cat desktop a
 | **Stop Drumming**  | `ESC`                      |
 | **Exit Program**   | `ESC` (while not drumming) |
 
+> [TIP]
+> **For best results:** Open a Notepad app and make sure it is your current active window. As shown in the demo GIF, this script types `a` and `d` rapidly; having a text document active prevents the script from accidentally triggering shortcuts in other applications.
+
 ## ⚙️ Customization
 
 You can tweak the performance by opening `main.py` and changing these values:
@@ -47,4 +54,3 @@ You can tweak the performance by opening `main.py` and changing these values:
 ---
 
 _Maintained with ❤️ for the Bongo Cat community._
-as
