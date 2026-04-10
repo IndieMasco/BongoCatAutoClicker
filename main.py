@@ -10,7 +10,7 @@ START_COMBO = ['ctrl', 'f8']
 STOP_KEY = 'esc'
 
 # Speed: 0.01 is about 50 hits per second. 
-SPEED = 0.01 
+SPEED = 0.0001 
 
 # The drumming loop
 def bongo_frenzy():
@@ -20,7 +20,7 @@ def bongo_frenzy():
     while True:
         # Check for the stop key
         if keyboard.is_pressed(STOP_KEY):
-            print(">>> Drumming has stopped.")
+            print(f"\n>>> Drumming has stopped! Press [{' + '.join(START_COMBO).upper()}] to Start.")
             time.sleep(0.5)
             return
 

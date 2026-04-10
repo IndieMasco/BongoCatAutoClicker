@@ -47,3 +47,4 @@ You can tweak the performance by opening `main.py` and changing these values:
 ---
 
 _Maintained with ❤️ for the Bongo Cat community._
+as
