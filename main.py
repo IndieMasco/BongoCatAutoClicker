@@ -44,6 +44,7 @@ def bongo_frenzy():
 
 # Main menu and start/stop listener
 def main():
+
     cat_art = r"""
                 ⠀⠀⠀⠀⢠⡶⠚⢷⣤⡀⠀⠀⠀⠀⠀⣲⡶⠛⠻⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
                 ⠀⠀⠀⢠⡿⠁⠀⠀⠙⣷⣄⠀⢀⣴⡟⠁⠀⠀⢷⢹⡆      
@@ -65,11 +66,12 @@ def main():
                 ⠀⠀⠀⢸⣿⠀⠀⡇⠀⠀⠀⠀⣿⡀⠀⠀⠀⠀⠀⠀⠀⢀⡇
                 ⠀⠀⠀⠘⠿⠶⢶⢧⣦⣦⡴⢾⣥⣽⣤⣤⣤⣤⣤⣤⡴⣯⠤⠴⠶⠛⠋
     """
+
     print(cat_art)
     print("=========================================================")
-    print("        BONGO CAT (STEAM VERSION) READY... ")
-    print(f"                START: {' + '.join(START_COMBO).upper()} ")
-    print(f"                 STOP: {STOP_KEY.upper()} ")
+    print("         BONGO CAT AUTO CLICKER READY TO DRUM... ")
+    print(f"                     START: {' + '.join(START_COMBO).upper()} ")
+    print(f"                      STOP: {STOP_KEY.upper()} ")
     print("=========================================================")
     print("Waiting to start...")
     
