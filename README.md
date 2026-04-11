@@ -23,7 +23,7 @@ A Python script designed to simulate ultra-fast drumming for Bongo Cat desktop (
 ## 🛠️ Setup & How to Run
 
 1. **Install Python:** Download the official [Python](https://www.python.org/) installer. **Make sure to check "Add Python to PATH" during installation.**
-2. **Install Dependencies:** Open any terminal (PowerShell or CMD) and run:
+2. **Install Dependencies:** Open your terminal (PowerShell) and run:
    ```bash
    pip install -r requirements.txt
    ```
