@@ -5,13 +5,13 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
 
-A Python script designed to simulate ultra-fast drumming for Bongo Cat desktop Steam version. Unlike standard clickers, this uses hardware-level input simulation to ensure the app registers every single hit.
+A Python script designed to simulate ultra-fast drumming for Bongo Cat desktop (Steam version). Unlike standard clickers, this uses hardware-level input simulation to ensure the app registers every single hit.
 
 ## ✨ Features
 
 - **Braille UI:** ASCII art to improve the terminal interface.
 - **Speed:** Capable of hundreds of hits per second (fully adjustable).
-- **Safe Start Toggle:** Two button combo to start to prevent accidental activation.
+- **Safe Start Toggle:** Two button combo start to prevent accidental activation.
 - **Stop Button:** Instant stop with a single keypress.
 
 ### 📽️ Demo
