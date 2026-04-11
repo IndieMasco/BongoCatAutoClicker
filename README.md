@@ -5,14 +5,13 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
 
-A Python script designed to simulate ultra-fast drumming for Bongo Cat desktop app. Unlike standard clickers, this uses hardware-level input simulation to ensure the app registers every single hit.
+A Python script designed to simulate ultra-fast drumming for Bongo Cat desktop Steam version. Unlike standard clickers, this uses hardware-level input simulation to ensure the app registers every single hit.
 
 ## ✨ Features
 
 - **Braille UI:** ASCII art to improve the terminal interface.
-- **Dual-Input Simulation:** Alternates between left and right paws for a realistic drumming effect.
-- **Speed:** Capable of 50+ hits per second (adjustable).
-- **Safe Toggle:** Start combo to prevent accidental activation.
+- **Speed:** Capable of hundreds of hits per second (fully adjustable).
+- **Safe Start Toggle:** Two button combo to start to prevent accidental activation.
 - **Stop Button:** Instant stop with a single keypress.
 
 ### 📽️ Demo
@@ -39,19 +38,19 @@ A Python script designed to simulate ultra-fast drumming for Bongo Cat desktop a
 | **Stop Drumming**  | `ESC`                      |
 | **Exit Program**   | `ESC` (while not drumming) |
 
-> [TIP]
-> **For best results:** Open a Notepad app and make sure it is your current active window. As shown in the demo GIF, this script types `a` and `d` rapidly; having a text document active prevents the script from accidentally triggering shortcuts in other applications.
+- [TIP] **For best results:** Open a Notepad app and make sure it is your current active window. As shown in the demo GIF, this script types `a` and `d` rapidly. Having a text document active prevents the script from accidentally triggering shortcuts in other applications.
 
 ## ⚙️ Customization
 
 You can tweak the performance by opening `main.py` and changing these values:
 
-- `SPEED`: Lower numbers = faster drumming (e.g., `0.005` for extreme speed).
-- `LEFT_PAW` / `RIGHT_PAW`: Change these if you want to uses different keys.
+- `HOLD_TIME`: How long the paw stays down. Lower = faster, but Steam may stop registering hits if set below `0.03`.
+- `GAP_TIME`: The delay between the left and right paw. Set to `0` for maximum speed.
+- `LEFT_PAW` / `RIGHT_PAW`: Change these if you want to use different keys (default is `a` and `d`).
 
 ## ⚠️ Troubleshooting
 
-- **Cat isn't moving?** Ensure Bongo Cat or Note pad window is the "Active" window (click on it) before starting the script.
+- **Cat isn't moving?** Ensure Bongo Cat or Notepad window is the "Active" window (click on it) before starting the script.
 - **Keys not registering?** Make sure you ran your VS Code as **Administrator**. Windows blocks non-admin scripts from sending inputs to other apps for security.
 
 ---
