@@ -20,15 +20,35 @@ A Python script designed to simulate ultra-fast drumming for Bongo Cat desktop (
   <img src="demo.gif" alt="Bongo Cat Drumming">
 </p>
 
-## 🛠️ Setup
+## 🛠️ Setup & How to Run
 
-1.  **Install Python:** Download the official [Python](https://www.python.org/) installer. **Make sure to check "Add Python to PATH" during installation.**
-2.  **Install Dependencies:** Open your terminal in the project folder and run:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3.  **Permissions:** Because this script interacts with other windows, you **must** run your code editor (VS Code) as **Administrator**.
-4.  **Run the Script:** Open `main.py` in VS Code and press the **Play Button** in the top right or hit `CTRL` + `F5`.
+1. **Install Python:** Download the official [Python](https://www.python.org/) installer. **Make sure to check "Add Python to PATH" during installation.**
+2. **Install Dependencies:** Open any terminal (PowerShell or CMD) and run:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+Once setup is done, choose **ONE** of the following ways to start the script:
+
+### Option A: Using VS Code
+
+1. Right-click **VS Code** and select **Run as Administrator**.
+2. Open the project folder and select `main.py`.
+3. Press the **Play Button** in the top right or hit `CTRL` + `F5`.
+
+### Option B: Using Terminal (Easiest)
+
+1. Search for **PowerShell** in your Start Menu.
+2. Right-click it and select **Run as Administrator**.
+3. Navigate to your folder (e.g., `cd C:\BongoCatAutoClicker`).
+4. Run the script by typing:
+   ```powershell
+   python main.py
+   ```
+
+### 💡 PRO TIP
+
+**For best results:** Open a Notepad app and make sure it is your current active window. As shown in the demo GIF, this script types `a` and `d` rapidly. Having a text document active prevents the script from accidentally triggering shortcuts in other applications.
 
 ## 🎮 Controls
 
@@ -37,10 +57,6 @@ A Python script designed to simulate ultra-fast drumming for Bongo Cat desktop (
 | **Start Drumming** | `CTRL` + `F8`              |
 | **Stop Drumming**  | `ESC`                      |
 | **Exit Program**   | `ESC` (while not drumming) |
-
-### 💡 PRO TIP
-
-**For best results:** Open a Notepad app and make sure it is your current active window. As shown in the demo GIF, this script types `a` and `d` rapidly. Having a text document active prevents the script from accidentally triggering shortcuts in other applications.
 
 ## ⚙️ Customization
 
