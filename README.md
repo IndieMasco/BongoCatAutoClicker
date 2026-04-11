@@ -38,7 +38,9 @@ A Python script designed to simulate ultra-fast drumming for Bongo Cat desktop (
 | **Stop Drumming**  | `ESC`                      |
 | **Exit Program**   | `ESC` (while not drumming) |
 
-- [TIP] **For best results:** Open a Notepad app and make sure it is your current active window. As shown in the demo GIF, this script types `a` and `d` rapidly. Having a text document active prevents the script from accidentally triggering shortcuts in other applications.
+### 💡 PRO TIP
+
+**For best results:** Open a Notepad app and make sure it is your current active window. As shown in the demo GIF, this script types `a` and `d` rapidly. Having a text document active prevents the script from accidentally triggering shortcuts in other applications.
 
 ## ⚙️ Customization
 
